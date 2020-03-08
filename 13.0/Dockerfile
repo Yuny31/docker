@@ -1,5 +1,5 @@
-FROM debian:buster-slim
-MAINTAINER Odoo S.A. <info@odoo.com>
+FROM Ubuntu:18.04
+MAINTAINER Yuny <cpedrique@controlps.com>
 
 # Generate locale C.UTF-8 for postgres and general locale data
 ENV LANG C.UTF-8
